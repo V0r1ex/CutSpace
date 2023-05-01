@@ -383,21 +383,25 @@ p, button {
 }
 
 .contact__content {
-  max-width: 342px;
   position: absolute;
   right: 117px;
 }
 
 .contact__content_title {
+  max-width: 342px;
   margin-bottom: 15px;
 }
 
 .contact__content_text {
+  max-width: 342px;
   margin-bottom: 30px;
 }
 
 .contact__btns-container {
   display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
   gap: 20px;
 }
 
