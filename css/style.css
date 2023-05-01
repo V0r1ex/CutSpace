@@ -13,8 +13,7 @@
   transition: opacity 0.1s;
   -webkit-user-select: none;
      -moz-user-select: none;
-          -ms-user-select: none;
-      user-select: none;
+          user-select: none;
 }
 .btn-orange:active {
   opacity: 0.8;
@@ -69,8 +68,7 @@ p, button {
   transition: opacity 0.1s;
   -webkit-user-select: none;
      -moz-user-select: none;
-          -ms-user-select: none;
-      user-select: none;
+          user-select: none;
 }
 .btn-orange:active {
   opacity: 0.8;
@@ -132,8 +130,7 @@ p, button {
   transition: opacity 0.1s;
   -webkit-user-select: none;
      -moz-user-select: none;
-          -ms-user-select: none;
-      user-select: none;
+          user-select: none;
 }
 .btn-orange:active {
   opacity: 0.8;
@@ -172,15 +169,6 @@ p, button {
   border: 2px solid transparent;
 }
 .intro__form::-moz-placeholder {
-  color: #BBBBBB;
-}
-.intro__form::-webkit-input-placeholder {
-  color: #BBBBBB;
-}
-.intro__form:-ms-input-placeholder {
-  color: #BBBBBB;
-}
-.intro__form::-ms-input-placeholder {
   color: #BBBBBB;
 }
 .intro__form::placeholder {
@@ -253,8 +241,7 @@ p, button {
   transition: opacity 0.1s;
   -webkit-user-select: none;
      -moz-user-select: none;
-          -ms-user-select: none;
-      user-select: none;
+          user-select: none;
 }
 .btn-orange:active {
   opacity: 0.8;
@@ -297,10 +284,9 @@ p, button {
 }
 
 .cards__container_item {
-  height: -moz-fit-content;
-  height: -webkit-fit-content;
-  height: fit-content;
-  width: 385px;
+  height: 550px;
+  width: -moz-fit-content;
+  width: fit-content;
   background-repeat: no-repeat;
 }
 
@@ -472,8 +458,7 @@ p, button {
   transition: opacity 0.1s;
   -webkit-user-select: none;
      -moz-user-select: none;
-          -ms-user-select: none;
-      user-select: none;
+          user-select: none;
 }
 .btn-orange:active {
   opacity: 0.8;
@@ -569,8 +554,7 @@ p, button {
   transition: opacity 0.1s;
   -webkit-user-select: none;
      -moz-user-select: none;
-          -ms-user-select: none;
-      user-select: none;
+          user-select: none;
 }
 .btn-orange:active {
   opacity: 0.8;
@@ -638,8 +622,7 @@ p, button {
   transition: opacity 0.1s;
   -webkit-user-select: none;
      -moz-user-select: none;
-          -ms-user-select: none;
-      user-select: none;
+          user-select: none;
 }
 .btn-orange:active {
   opacity: 0.8;
@@ -758,8 +741,7 @@ p, button {
   transition: opacity 0.1s;
   -webkit-user-select: none;
      -moz-user-select: none;
-          -ms-user-select: none;
-      user-select: none;
+          user-select: none;
 }
 .btn-orange:active {
   opacity: 0.8;
@@ -832,8 +814,7 @@ p, button {
   transition: opacity 0.1s;
   -webkit-user-select: none;
      -moz-user-select: none;
-          -ms-user-select: none;
-      user-select: none;
+          user-select: none;
 }
 .btn-orange:active {
   opacity: 0.8;
@@ -899,4 +880,4 @@ p, button {
     justify-content: center;
     text-align: center;
   }
-}
+}/*# sourceMappingURL=style.css.map */
