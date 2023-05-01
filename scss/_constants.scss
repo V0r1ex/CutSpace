@@ -1,0 +1,25 @@
+@import '_mixins';
+
+$poppins: 'Poppins', sans-serif;
+$dark: #323232;
+$orange: #F78434;
+$gray: #BBBBBB;
+$blue: #58BEBF;
+$light-blue:rgba(88, 190, 191, 0.2);
+$light-gray: #F5F6FA;
+
+.btn-orange {
+    width: 172px;
+    height: 58px;
+    border-radius: 100px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: $orange;
+    @include flex_center();
+    color: #fff;
+    transition: opacity .1s;
+    user-select: none;
+    &:active {
+        opacity: .8;
+    }
+}

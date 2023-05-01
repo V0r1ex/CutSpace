@@ -1,0 +1,45 @@
+@import '_constants';
+@import '_mixins';
+
+// basic
+
+body {
+    font-family: $poppins;
+    color: $dark;
+}
+
+.section__inner {
+    max-width: 1114px;
+    margin: 0 auto;
+}
+
+.section__outer {
+    padding: 0 50px;
+}
+
+h1 {
+    font-size: 54px;
+}
+
+h2 {
+    font-size: 42px;
+}
+
+p, button {
+    font-size: 16px;
+}
+
+// media
+
+@import '_media';
+
+// sections
+
+@import 'sections/_header';
+@import 'sections/_intro';
+@import 'sections/_about';
+@import 'sections/_start';
+@import 'sections/_benefits';
+@import 'sections/_clients';
+@import 'sections/_expert';
+@import 'sections/_footer';

@@ -1,0 +1,82 @@
+@import '../_constants';
+@import '../_mixins';
+
+.start {
+    height: 704px;
+    background-color: $light-gray;
+    padding-top: 377px;
+
+    .section__inner {
+        text-align: center;
+    }
+}
+
+.start_title {
+    margin-bottom: 10px;
+}
+
+.start_text {
+    margin-bottom: 45px;
+}
+
+.start__cards-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -182px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.start__cards-container_item {
+    width: 540px;
+    height: 365px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+    font-size: 16px;
+    align-items: center;
+    background-color: #fff;
+    color: $dark;
+    button {
+        background-color: transparent;
+        color: $orange;
+    }
+    &, path, button {
+        transition: .5s ease-out;
+    }
+    &:hover {
+        background-color: $orange;
+        color: #fff;
+        path {
+            fill: #fff;
+        }
+        button {
+            background-color: #fff;
+            color: $orange;
+        }
+    }
+}
+
+.start__cards-container_item--2 {
+    background-color: #fff;
+    color: $dark;
+    button {
+        background-color: transparent;
+        color: $orange;
+    }
+}
+
+.card_text {
+    max-width: 364px;
+}
+
+// media-----------------------------------
+
+@media (max-width: 1210px) {
+    .benefits {
+        padding-top: 700px !important;
+    }
+}
+

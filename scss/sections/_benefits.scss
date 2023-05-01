@@ -1,0 +1,49 @@
+@import '../_constants';
+@import '../_mixins';
+
+.benefits {
+    min-height: 709px;
+    padding-top: 245px;
+
+    .section__inner {
+        text-align: center;
+    }
+}
+
+.benefits_title {
+    margin-bottom: 58px;
+}
+
+.benefits__container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+.benefits__container_item {
+    @include flex_center();
+    flex-direction: column;
+    max-width: 248px;
+}
+
+.benefit_icon {
+    margin-bottom: 15px;
+    cursor: pointer;
+    circle, path, ellipse {
+        transition: .4s ease-in-out;
+    }
+    &:hover {
+        path, ellipse {
+            fill: #fff;
+        }
+        circle {
+            fill: $orange;
+            fill-opacity: 1;
+        }
+    }
+}
+
+.benefit_title {
+    margin-bottom: 2px;
+}

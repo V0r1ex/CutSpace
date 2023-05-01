@@ -1,0 +1,11 @@
+@mixin flex_center($gap: 0) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: $gap;
+}
+
+@function darker($color, $tone) {
+    $adjust: -16*$tone;
+    @return adjust-color($color, $red: $adjust, $green: $adjust, $blue: $adjust);
+}
